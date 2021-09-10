@@ -1,3 +1,3 @@
 # Python-Terminal
 ### -Feature :
-1. Add 'SHORTCUT'
+1. ...
