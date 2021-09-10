@@ -9,7 +9,6 @@ import psutil
 from datetime import datetime
 import smtplib, ssl
 import hashlib
-from CAVBR import bugreport
 from FUNCTION import *
 
 print('CHECKING SYSTEM...')
@@ -56,7 +55,6 @@ while True:
         speedtst : SPEED TEST
         downvHR : DOWNLOAD VIDEO ON YOUTUBE [HIGH RESOLUTION]
         downvFR : DOWNLOAD VIDEO ON YOUTUBE [FIRST RESOLUTION]
-        bugreport : REPORT BUG
         ''')
     elif cmdscr == 'ptfschelp':
         print('''PYTHON TERMINAL FILE SHORTCUT HELP:
@@ -111,8 +109,6 @@ while True:
         downloadyoutubevideo()
     elif cmdscr == 'downvFR':
         downloadyoutubevideoFR()
-    elif cmdscr == 'bugreport':
-        bugreport()
     elif cmdscr == 'clear':
         os.system('cmd /c "cls"')
         print('''
