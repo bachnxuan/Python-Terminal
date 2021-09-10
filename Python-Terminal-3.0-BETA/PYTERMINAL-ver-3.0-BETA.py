@@ -40,7 +40,7 @@ while True:
     elif cmdscr == 'help':
         print('''PYTHON TERMINAL HELP :
         exit : EXIT THE TERMINAL
-        cd : CHANGE DIRECTORY [YOU CAN USE PYTHON TERMINAL FILE SHORTCUT] (, , , , )]
+        cd : CHANGE DIRECTORY [YOU CAN USE PYTHON TERMINAL FOLDER SHORTCUT]
         help : OPEN THE PYTHON TERMINAL HELP 
         python : OPEN PYTHON SHELL AND PYTHON PROJECT (NOTE : PLEASE USE PYTHON ADD TO PATH)
         crtuser : CREATE USER
@@ -92,7 +92,7 @@ while True:
     elif cmdscr == 'deluser':
         deleteuser()
     elif cmdscr == 'color':
-        color = input('INPUT COLOR CODE FORM CMD: ')
+        color = input('INPUT COLOR CODE FORM CMD [Example : a]: ')
         os.system(f'cmd /c "color {color}"')
     elif cmdscr == 'sdcolor':
         os.system('cmd /c "color 07"')
