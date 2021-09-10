@@ -1,3 +1,3 @@
 # Python-Terminal
 ### -Feature :
-1. SEE ON 'TODO' FILE
+1. SEE ON `TODO` FILE
