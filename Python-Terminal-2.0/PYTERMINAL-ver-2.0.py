@@ -55,6 +55,7 @@ while True:
         speedtst : SPEED TEST
         downvHR : DOWNLOAD VIDEO ON YOUTUBE [HIGH RESOLUTION]
         downvFR : DOWNLOAD VIDEO ON YOUTUBE [FIRST RESOLUTION]
+        clear : CLEAR TERMINAL SCREEN
         ''')
     elif cmdscr == 'ptfschelp':
         print('''PYTHON TERMINAL FILE SHORTCUT HELP:
