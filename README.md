@@ -7,6 +7,8 @@
 
 ### -BUG REPORT SCRIPT (NEW):
 ```python
+# -*- coding: utf-8 -*-
+
 #IMPORT MODULE
 import smtplib, ssl
 from getpass import getpass
