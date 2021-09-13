@@ -1,18 +1,18 @@
+# -*- coding: utf-8 -*-
+
+from datetime import datetime
 from getpass import getpass
-import pytube
-import sys
+from MINESWEEPER import *
+from BUGREPORT import *
+from FUNCTION import *
+import smtplib, ssl
 from time import *
-import os
 import platform
 import getpass
+import pytube
 import psutil
-from datetime import datetime
-import smtplib, ssl
-import hashlib
-from FUNCTION import *
-from MINESWEEPER import *
-from FLAPPYBIRD import *
-from BUGREPORT import *
+import sys
+import os
 
 BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[94m', '\033[91m', '\33[97m', '\33[93m', '\033[1;35m', '\033[1;32m', '\033[0m'
 
