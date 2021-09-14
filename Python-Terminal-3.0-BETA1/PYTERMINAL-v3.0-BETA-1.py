@@ -3,6 +3,7 @@
 from datetime import datetime
 from getpass import getpass
 from MINESWEEPER import *
+from FLAPPYBIRD import *
 from BUGREPORT import *
 from FUNCTION import *
 import smtplib, ssl
