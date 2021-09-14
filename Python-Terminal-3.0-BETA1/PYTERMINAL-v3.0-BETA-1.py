@@ -15,6 +15,8 @@ import psutil
 import sys
 import os
 
+print('IMPORT FILE...')
+
 BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[94m', '\033[91m', '\33[97m', '\33[93m', '\033[1;35m', '\033[1;32m', '\033[0m'
 
 print('CHECKING SYSTEM...')
@@ -30,6 +32,8 @@ pyterver = '3.0 BETA1'
 user = os.getlogin()
 
 print('LOADING TERMINAL...')
+
+print('WELCOME TO PYTHON TERMINAL v3.0 BETA.1')
 
 print('''
 ██████╗░██╗░░░██╗████████╗██╗░░██╗░█████╗░███╗░░██╗  ████████╗███████╗██████╗░███╗░░░███╗██╗███╗░░██╗░█████╗░██╗░░░░░
