@@ -5,7 +5,12 @@
 3. NEW GAMES [`FLAPPY BIRD`]
 4. NEW COMMAND [`bugrp`] FOR BUG REPORT
 
-### -BUG REPORT SCRIPT (NEW):
+### -LOGIN SCRIPT (NEW):
+```code
+
+bv
+```
+### -BUG REPORT SCRIPT (OLD):
 ```python
 # -*- coding: utf-8 -*-
 
@@ -42,6 +47,8 @@ def bugreport():
 
 ### -HOW TO USE THIS SCRIPT: 
 ```python
+# -*- coding: utf-8 -*-
+
 import ****
 bugreport()
 
