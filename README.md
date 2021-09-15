@@ -61,7 +61,7 @@ def loginmain():
 ```
 
 ### -HOW TO USE LOGIN SCRIPT:
-```
+```python
 # -*- coding: utf-8 -*-
 
 from **** import loginmain
