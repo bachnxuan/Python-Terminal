@@ -6,10 +6,73 @@
 4. NEW COMMAND [`bugrp`] FOR BUG REPORT
 
 ### -LOGIN SCRIPT (NEW):
-```code
+```python
+# -*- coding: utf-8 -*-
 
-bv
+import os
+
+def register():
+    username_info = input('Enter Your Username: ')
+    password_info = input('Enter Your Password: ')
+
+    file = open(username_info, "w")
+    file.write(username_info + "\n")
+    file.write(password_info)
+    file.close()
+
+    print('Register Successfully!')
+
+def login():
+    user1 = input('Enter Your Username: ')
+    pass1 = input('Enter Your Password: ')
+
+    list_of_files = os.listdir()
+    if user1 in list_of_files:
+        file1 = open(user1, "r")
+        verify = file1.read().splitlines()
+        if pass1 in verify:
+            login_sucess()
+
+        else:
+            password_not_recognised()
+
+    else:
+        user_not_found()
+
+def login_sucess():
+    print('Login Successfully!') 
+
+def password_not_recognised():
+    print('Invalid Password!')
+
+def user_not_found():
+    print('User Not Found')
+
+def loginmain():
+    print('''
+    [1].Register
+    [2].Login
+    ''')
+    askoption = input('[?]: ')
+    if askoption == '1':
+        register()
+    if askoption == '2':
+        login()
 ```
+
+### -HOW TO USE LOGIN SCRIPT:
+```
+# -*- coding: utf-8 -*-
+
+from **** import loginmain
+while True:
+	loginmain()
+#or
+loginmain()
+
+# **** IS A NAME OF LOGIN SCRIPT FILE
+```
+
 ### -BUG REPORT SCRIPT (OLD):
 ```python
 # -*- coding: utf-8 -*-
@@ -32,7 +95,8 @@ def bugreport():
 	receiver_email = "****@gmail.com"
 	password = getpass("Type your password: ")
 
-	message = input('Your bug: ')
+	message1 = input('Your bug: ')
+	massage = f"A BUG IS : {massage}"
 
 	context = ssl.create_default_context()
 
@@ -45,13 +109,13 @@ def bugreport():
 # **** IS YOUR RECEIVE BUG GMAIL
 ```
 
-### -HOW TO USE THIS SCRIPT: 
+### -HOW TO USE THIS BUG REPORT SCRIPT: 
 ```python
 # -*- coding: utf-8 -*-
 
 import ****
 bugreport()
 
-# **** IS A NAME OF SCRIPT FILE
+# **** IS A NAME OF BUG REPORT SCRIPT FILE
 ```
 My Github : https://github.com/bachnxuan/
