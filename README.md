@@ -114,5 +114,9 @@ bugrp()
 
 # **** IS A NAME OF BUG REPORT SCRIPT FILE
 ```
+
+### -CHANGE:
+1. I put all the files in the archive
+
 My Github : https://github.com/bachnxuan/
 
