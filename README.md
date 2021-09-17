@@ -116,7 +116,7 @@ bugrp()
 ```
 
 ### -CHANGE:
-1. I put all the files in the archive
+1. I put all the files in the archive in version 3.0 and up
 
 My Github : https://github.com/bachnxuan/
 
