@@ -1,4 +1,9 @@
 # Python-Terminal
+### -SYSTEM REQUIREMENTS :
+1. Windows
+2. Windows (x86 or 64)
+3. Windows 64 bit (recommended)
+
 ### -ADD :
 1. SEE ON [`TODO`] FILE
 2. NEW THEME : POWERSHELL THEME [`PT C:\> `] 
